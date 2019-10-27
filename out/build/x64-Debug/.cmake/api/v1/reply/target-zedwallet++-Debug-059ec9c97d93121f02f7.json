@@ -1,0 +1,742 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/zedwallet-beta.exe"
+		},
+		{
+			"path" : "src/zedwallet-beta.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 148,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MTd /Zi /Ob0 /Od /RTC1   /bigobj /MP /W3 /GS- /D_CRT_SECURE_NO_WARNINGS /wd4996 /wd4345 /D_WIN32_WINNT=0x0600 /DWIN32_LEAN_AND_MEAN /DGTEST_HAS_TR1_TUPLE=0 /D_VARIADIC_MAX=8 /D__SSE4_1__ /FI\\\"winapifamily.h\\\" -std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "A2_VISCTL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ENABLE_ZSTD_COMPRESSION"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "FORCE_USE_HEAP"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MINIUPNP_STATICLIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "STATICLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN32_WINNT=0x0A00"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/out/build/x64-Debug/version"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/external"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Projetos/turtlecoin/src/platform/windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Projetos/turtlecoin/external/cpp-linenoise"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Projetos/turtlecoin/external/cpp-httplib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projetos/turtlecoin/external/nlohmann-json"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Projetos/turtlecoin/external/rapidjson"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Projetos/turtlecoin/external/cxxopts"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Projetos/turtlecoin/external/cryptopp"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Projetos/turtlecoin/external/zstd"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Projetos/turtlecoin/external/lz4"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/lib/blake2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/miniupnpc/../C:/Projetos/turtlecoin/external/miniupnpc"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Projetos/turtlecoin/src/platform/msc"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "C:/local/boost_1_69_0"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG   /bigobj /MP /W3 /GS- /D_CRT_SECURE_NO_WARNINGS /wd4996 /wd4345 /D_WIN32_WINNT=0x0600 /DWIN32_LEAN_AND_MEAN /DGTEST_HAS_TR1_TUPLE=0 /D_VARIADIC_MAX=8 /D__SSE4_1__"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "A2_VISCTL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ENABLE_ZSTD_COMPRESSION"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "FORCE_USE_HEAP"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MINIUPNP_STATICLIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "STATICLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN32_WINNT=0x0A00"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/out/build/x64-Debug/version"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/external"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Projetos/turtlecoin/src/platform/windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Projetos/turtlecoin/external/cpp-linenoise"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Projetos/turtlecoin/external/cpp-httplib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projetos/turtlecoin/external/nlohmann-json"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Projetos/turtlecoin/external/rapidjson"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Projetos/turtlecoin/external/cxxopts"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Projetos/turtlecoin/external/cryptopp"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Projetos/turtlecoin/external/zstd"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Projetos/turtlecoin/external/lz4"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/lib/blake2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/miniupnpc/../C:/Projetos/turtlecoin/external/miniupnpc"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Projetos/turtlecoin/src/platform/msc"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "C:/local/boost_1_69_0"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				27
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "upnpc-static::@60a6c63e2279a1ce8c58"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "cryptopp-static::@f81014497799fc9763d2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "argon2::@ccf791acbde5522a8d1c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Errors::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Http::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "WalletBackend::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Crypto::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Config::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CryptoNoteCore::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Logging::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Serialization::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "System::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "P2P::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Nigel::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Logger::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "NodeRpcProxy::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Mnemonics::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SubWallets::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Transfers::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "zedwallet++::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MTd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /STACK:10485760 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "ws2_32.lib advapi32.lib crypt32.lib gdi32.lib user32.lib WalletBackend.lib Wallet.lib WalletBackend.lib Wallet.lib Mnemonics.lib Nigel.lib ..\\external\\cryptopp\\cryptopp-static.lib Config.lib NodeRpcProxy.lib Transfers.lib CryptoNoteCore.lib Rpc.lib CryptoNoteCore.lib Rpc.lib Logging.lib Http.lib System.lib Utilities.lib Errors.lib Utilities.lib Errors.lib SubWallets.lib Logger.lib P2P.lib Serialization.lib Common.lib Crypto.lib ..\\external\\argon2\\argon2.lib C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_system-vc141-mt-sgd-x64-1_69.lib C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_thread-vc141-mt-sgd-x64-1_69.lib C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_date_time-vc141-mt-sgd-x64-1_69.lib C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_chrono-vc141-mt-sgd-x64-1_69.lib C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_serialization-vc141-mt-sgd-x64-1_69.lib C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_atomic-vc141-mt-sgd-x64-1_69.lib ..\\external\\miniupnpc\\miniupnpc.lib ws2_32.lib iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "zedwallet++",
+	"nameOnDisk" : "zedwallet-beta.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				27
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/AddressBook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/AddressBook.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/CommandDispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/CommandDispatcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/CommandImplementations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/CommandImplementations.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Commands.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Commands.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Fusion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Fusion.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/GetInput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/GetInput.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Menu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Menu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Open.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Open.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/ParseArguments.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/ParseArguments.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Sync.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Sync.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/TransactionMonitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/TransactionMonitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Transfer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Transfer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/Utilities.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/zedwallet++/Utilities.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zedwallet++/ZedWallet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/binaryinfo/zedwallet.rc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

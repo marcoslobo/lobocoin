@@ -1,0 +1,375 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/rocksdb/CMakeFiles/build_version.dir/__/__/build_version.cc.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"target_include_directories",
+			"add_definitions",
+			"include"
+		],
+		"files" : 
+		[
+			"external/rocksdb/CMakeLists.txt",
+			"CMakeLists.txt",
+			"external/rocksdb/thirdparty.inc"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 529,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 530,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 533,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 148,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 531,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 297,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 123,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 464,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 380,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 222,
+				"parent" : 22
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /Zi /nologo /EHsc /GS /Gd /GR /GF /fp:precise /Zc:wchar_t /Zc:forScope /errorReport:queue /FC /d2Zi+ /W4 /wd4127 /wd4800 /wd4996 /wd4351 /wd4100 /wd4204 /wd4324 /arch:AVX2 /MTd /Zi /Ob0 /Od /RTC1 -DROCKSDB_USE_RTTI /Od /RTC1 /Gm /MT   /bigobj /MP /W3 /GS- /D_CRT_SECURE_NO_WARNINGS /wd4996 /wd4345 /D_WIN32_WINNT=0x0600 /DWIN32_LEAN_AND_MEAN /DGTEST_HAS_TR1_TUPLE=0 /D_VARIADIC_MAX=8 /D__SSE4_1__ -std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "ENABLE_ZSTD_COMPRESSION"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "FORCE_USE_HEAP"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "HAVE_PCLMUL"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "HAVE_SSE42"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "LZ4"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "OS_WIN"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "ROCKSDB_NO_DYNAMIC_EXTENSION"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "ROCKSDB_SUPPORT_THREAD_LOCAL"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "ZSTD"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "ZSTD_STATIC_LINKING_ONLY"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_MBCS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Projetos/turtlecoin/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Projetos/turtlecoin/out/build/x64-Debug/version"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Projetos/turtlecoin/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Projetos/turtlecoin/external"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/src/platform/windows"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/../lz4"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/../zstd"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/../zstd/lib/dictBuilder"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/../zstd/lib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/../zstd/common"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/util"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/third-party/folly"
+				},
+				{
+					"backtrace" : 14,
+					"isSystem" : true,
+					"path" : "C:/Projetos/turtlecoin/src/platform/msc"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "C:/local/boost_1_69_0"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/third-party/gtest-1.7.0/fused-src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "build_version::@332f6a8a1187c649af53",
+	"name" : "build_version",
+	"paths" : 
+	{
+		"build" : "external/rocksdb",
+		"source" : "external/rocksdb"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/build_version.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

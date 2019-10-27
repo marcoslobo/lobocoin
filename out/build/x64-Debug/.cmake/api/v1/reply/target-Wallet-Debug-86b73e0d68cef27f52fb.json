@@ -1,0 +1,476 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/Wallet.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 148,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MTd /Zi /Ob0 /Od /RTC1   /bigobj /MP /W3 /GS- /D_CRT_SECURE_NO_WARNINGS /wd4996 /wd4345 /D_WIN32_WINNT=0x0600 /DWIN32_LEAN_AND_MEAN /DGTEST_HAS_TR1_TUPLE=0 /D_VARIADIC_MAX=8 /D__SSE4_1__ /FI\\\"winapifamily.h\\\" -std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "A2_VISCTL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ENABLE_ZSTD_COMPRESSION"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "FORCE_USE_HEAP"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MINIUPNP_STATICLIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "RAPIDJSON_HAS_STDSTRING"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "STATICLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN32_WINNT=0x0A00"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/out/build/x64-Debug/version"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Projetos/turtlecoin/external"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Projetos/turtlecoin/src/platform/windows"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Projetos/turtlecoin/external/rocksdb/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Projetos/turtlecoin/external/cpp-linenoise"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Projetos/turtlecoin/external/cpp-httplib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projetos/turtlecoin/external/nlohmann-json"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Projetos/turtlecoin/external/rapidjson"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Projetos/turtlecoin/external/cxxopts"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Projetos/turtlecoin/external/cryptopp"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Projetos/turtlecoin/external/zstd"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Projetos/turtlecoin/external/lz4"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/miniupnpc/../C:/Projetos/turtlecoin/external/miniupnpc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Projetos/turtlecoin/external/argon2/lib/blake2"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/Projetos/turtlecoin/src/platform/msc"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "C:/local/boost_1_69_0"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				8,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "upnpc-static::@60a6c63e2279a1ce8c58"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "cryptopp-static::@f81014497799fc9763d2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "argon2::@ccf791acbde5522a8d1c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Errors::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Http::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Crypto::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Config::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CryptoNoteCore::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Logging::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Serialization::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "System::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "P2P::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Nigel::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Logger::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "NodeRpcProxy::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Mnemonics::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SubWallets::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Transfers::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "Wallet::@145eef247bfb46b6828c",
+	"name" : "Wallet",
+	"nameOnDisk" : "Wallet.lib",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/IFusionManager.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/wallet/WalletAsyncContextCounter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/WalletAsyncContextCounter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/wallet/WalletErrors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/WalletErrors.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/wallet/WalletGreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/WalletGreen.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/WalletIndices.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/wallet/WalletSerializationV2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/WalletSerializationV2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/wallet/WalletUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/wallet/WalletUtils.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

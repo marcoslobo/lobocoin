@@ -1,0 +1,642 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "external",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external"
+				},
+				{
+					"build" : "external/miniupnpc",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/miniupnpc",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "external/cryptopp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/cryptopp",
+					"targetIndexes" : 
+					[
+						29,
+						30,
+						38
+					]
+				},
+				{
+					"build" : "external/zstd",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "external/zstd",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "external/lz4",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "external/lz4",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "external/argon2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "external/argon2",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "external/rocksdb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "external/rocksdb",
+					"targetIndexes" : 
+					[
+						27,
+						35,
+						36
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						28,
+						31,
+						33,
+						34,
+						37,
+						41,
+						42
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						8
+					],
+					"name" : "TurtleCoin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						28,
+						31,
+						33,
+						34,
+						37,
+						40,
+						41,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "miniupnpc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "cryptopp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29,
+						30,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "zstd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "lz4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Argon2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "rocksdb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						35,
+						36
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "BlockchainExplorer::@145eef247bfb46b6828c",
+					"jsonFile" : "target-BlockchainExplorer-Debug-28cd8f34f3ef8ed7be91.json",
+					"name" : "BlockchainExplorer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Common::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Common-Debug-540c0bd207f7e52cc4ed.json",
+					"name" : "Common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Config::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Config-Debug-9f211648ca8fbb6a427b.json",
+					"name" : "Config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Crypto::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Crypto-Debug-012e4b9b163b5813c18a.json",
+					"name" : "Crypto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CryptoNoteCore::@145eef247bfb46b6828c",
+					"jsonFile" : "target-CryptoNoteCore-Debug-e4116803347e6fa368cd.json",
+					"name" : "CryptoNoteCore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Errors::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Errors-Debug-7a30dfd724a7188ff565.json",
+					"name" : "Errors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Http::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Http-Debug-28d5c4d8c5c24f7c0757.json",
+					"name" : "Http",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "JsonRpcServer::@145eef247bfb46b6828c",
+					"jsonFile" : "target-JsonRpcServer-Debug-04f3714bfa7b98490263.json",
+					"name" : "JsonRpcServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Logger::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Logger-Debug-ebb0b05002e38578bb3b.json",
+					"name" : "Logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Logging::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Logging-Debug-d14c857281d2c5223679.json",
+					"name" : "Logging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Mnemonics::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Mnemonics-Debug-2ace081f296b0dc01cb5.json",
+					"name" : "Mnemonics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Nigel::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Nigel-Debug-364c511cb087b0268493.json",
+					"name" : "Nigel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NodeRpcProxy::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NodeRpcProxy-Debug-a1101cd73ba944f44493.json",
+					"name" : "NodeRpcProxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "P2P::@145eef247bfb46b6828c",
+					"jsonFile" : "target-P2P-Debug-16150ec9381701f83adc.json",
+					"name" : "P2P",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Rpc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Rpc-Debug-3096989ac68b14d496c4.json",
+					"name" : "Rpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Serialization::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Serialization-Debug-cc67c802a1c10a884cb9.json",
+					"name" : "Serialization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "SubWallets::@145eef247bfb46b6828c",
+					"jsonFile" : "target-SubWallets-Debug-3e927ae0fcda703ddefb.json",
+					"name" : "SubWallets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "System::@145eef247bfb46b6828c",
+					"jsonFile" : "target-System-Debug-51ef45f1dfd8b0b9c09a.json",
+					"name" : "System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Transfers::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Transfers-Debug-f6d93629dc2de111d5b5.json",
+					"name" : "Transfers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "TurtleCoind::@145eef247bfb46b6828c",
+					"jsonFile" : "target-TurtleCoind-Debug-f53671764b9fe5dfeced.json",
+					"name" : "TurtleCoind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Utilities::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Utilities-Debug-1ef937cb696dfaa68d2b.json",
+					"name" : "Utilities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Wallet::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Wallet-Debug-86b73e0d68cef27f52fb.json",
+					"name" : "Wallet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "WalletApi::@145eef247bfb46b6828c",
+					"jsonFile" : "target-WalletApi-Debug-ffb4a78d383a73422f73.json",
+					"name" : "WalletApi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "WalletBackend::@145eef247bfb46b6828c",
+					"jsonFile" : "target-WalletBackend-Debug-6a0f6f9dae7735121c32.json",
+					"name" : "WalletBackend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "WalletService::@145eef247bfb46b6828c",
+					"jsonFile" : "target-WalletService-Debug-acae5fa18fd51f2c51d5.json",
+					"name" : "WalletService",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "WalletUpgrader::@145eef247bfb46b6828c",
+					"jsonFile" : "target-WalletUpgrader-Debug-20304c4747392e346f38.json",
+					"name" : "WalletUpgrader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "argon2::@ccf791acbde5522a8d1c",
+					"jsonFile" : "target-argon2-Debug-b91e3b20a0f2b7562d81.json",
+					"name" : "argon2",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "build_version::@332f6a8a1187c649af53",
+					"jsonFile" : "target-build_version-Debug-3565c140dc420d22da75.json",
+					"name" : "build_version",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cli::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cli-Debug-e4b23da56d258f0d0a4b.json",
+					"name" : "cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cryptopp-object::@f81014497799fc9763d2",
+					"jsonFile" : "target-cryptopp-object-Debug-8a5b9833f928e7ff971b.json",
+					"name" : "cryptopp-object",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "cryptopp-static::@f81014497799fc9763d2",
+					"jsonFile" : "target-cryptopp-static-Debug-8f49dfc2be81f6b91711.json",
+					"name" : "cryptopp-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "cryptotest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cryptotest-Debug-47ea708ff98540d2dcab.json",
+					"name" : "cryptotest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "lz4::@5034d83536e62844b9cd",
+					"jsonFile" : "target-lz4-Debug-fc8030bc12c04bd1d9ef.json",
+					"name" : "lz4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "miner::@145eef247bfb46b6828c",
+					"jsonFile" : "target-miner-Debug-2ae2f2ac26b650331e30.json",
+					"name" : "miner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "pool::@145eef247bfb46b6828c",
+					"jsonFile" : "target-pool-Debug-66d9a42f3e20d3f016e2.json",
+					"name" : "pool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "rocksdb::@332f6a8a1187c649af53",
+					"jsonFile" : "target-rocksdb-Debug-377c033368fb5d98c65d.json",
+					"name" : "rocksdb",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "rocksdb-shared::@332f6a8a1187c649af53",
+					"jsonFile" : "target-rocksdb-shared-Debug-ac8e19aecb8e173a67b6.json",
+					"name" : "rocksdb-shared",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "solominer::@145eef247bfb46b6828c",
+					"jsonFile" : "target-solominer-Debug-7bae616bd7842f8ac67e.json",
+					"name" : "solominer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "static::@f81014497799fc9763d2",
+					"jsonFile" : "target-static-Debug-a41f09813ba598c0578b.json",
+					"name" : "static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "upnpc-static::@60a6c63e2279a1ce8c58",
+					"jsonFile" : "target-upnpc-static-Debug-9b953de6ab052e38a7fa.json",
+					"name" : "upnpc-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "version::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-version-Debug-0a6b5948c3bccfc4d4c9.json",
+					"name" : "version",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "zedwallet::@145eef247bfb46b6828c",
+					"jsonFile" : "target-zedwallet-Debug-861f6810ecb11eb445e2.json",
+					"name" : "zedwallet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "zedwallet++::@145eef247bfb46b6828c",
+					"jsonFile" : "target-zedwallet++-Debug-059ec9c97d93121f02f7.json",
+					"name" : "zedwallet++",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "zstd::@cd685f3d404386a67a37",
+					"jsonFile" : "target-zstd-Debug-36c378d357e70e0aae45.json",
+					"name" : "zstd",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projetos/turtlecoin/out/build/x64-Debug",
+		"source" : "C:/Projetos/turtlecoin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
